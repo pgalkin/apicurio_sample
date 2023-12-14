@@ -1,0 +1,9 @@
+[mysqld]
+server-id         = 1
+log_bin           = mysql-bin
+binlog_format     = ROW
+binlog_row_image  = FULL
+gtid_mode         = OFF
+enforce_gtid_consistency = OFF
+binlog_rows_query_log_events = ON
+character_set_server = utf8
